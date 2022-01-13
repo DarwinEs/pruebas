@@ -4,6 +4,7 @@
       "id": "1",
       "nombre": "Ralts",
       "generacion": "Tercera",
+      "imagen": "https://images.gameinfo.io/pokemon/256/p280f193.png",
       "movimientos": 
       [{
         "nombre": "Mismo Destino",
@@ -30,6 +31,7 @@
       "id": "2",
       "nombre": "Sylveon",
       "generacion": "Sexta",
+      "imagen": "https://pokemongostop.org/images/pokemon/sylveon.png",
       "movimientos": 
       [{
         "nombre": "Llama embrujada",
@@ -48,6 +50,7 @@
       "id": "3",
       "nombre": "Dragonite",
       "generacion": "Primera",
+      "imagen": "https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/a/a6/Dragonite.png",
       "movimientos": 
       [{
         "nombre": "Cascada",
@@ -74,6 +77,7 @@
       "id": "4",
       "nombre": "Umbreon",
       "generacion": "Segunda",
+      "imagen": "https://static.wikia.nocookie.net/pokemongo/images/9/9f/Umbreon.png",
       "movimientos": 
       [{
         "nombre": "Mal de ojo",

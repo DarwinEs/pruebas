@@ -22,13 +22,13 @@ class Pokemon extends Component {
                 nombre: item.nombre,
                 movimientos: item.movimientos ? item.movimientos.map(item=>item.nombre ?item.nombre: 'no hay data').join(" - ") : 'no se tiene movimientos',
                 obtencion: item.movimientos ? item.movimientos.map(item=> item.obtencion ?item.obtencion: 'no hay métodos de obtención').map(item => item.nombre).join(" - ") : 'no se tiene movimientos',
+                imagen: item.imagen
             }
         });
 
         let initialState = [...this.state.initialState.concat(pokemonMap)];
 
         this.setState({initialState});
-        
     }
 
     render() {
@@ -36,7 +36,8 @@ class Pokemon extends Component {
             <div>
                     {this.state.initialState.map((item) => 
                             <div key={item.id}>
-                            <h4>{"Nombre: " + item.nombre}</h4>
+                            <img src={item.imagen} alt={item.nombre} ></img>
+                            <h4> {"Nombre: " + item.nombre}</h4>
                             <h4>{"Movimientos: " + item.movimientos}</h4>
                             <h4>{"Obtencion: " + item.obtencion}</h4>
                             <hr/>
@@ -48,5 +49,4 @@ class Pokemon extends Component {
 }
 
 export default Pokemon;
-
 
