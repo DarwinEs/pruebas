@@ -1,0 +1,91 @@
+
+ [ 
+     {
+      "id": "1",
+      "nombre": "Ralts",
+      "generacion": "Tercera",
+      "movimientos": 
+      [{
+        "nombre": "Mismo Destino",
+        "usos": "5",
+        "potencia": "",
+        "ratio": "",
+        "obtencion": 
+        {
+          "nombre": "Huevo"
+        }
+      },
+      {
+        "nombre": "Come sueños",
+        "usos": "15",
+        "potencia": "100",
+        "ratio": "100",
+        "obtencion": 
+        {
+          "nombre": "Nivel"
+        }
+      }]
+    },
+      {
+      "id": "2",
+      "nombre": "Sylveon",
+      "generacion": "Sexta",
+      "movimientos": 
+      [{
+        "nombre": "Llama embrujada",
+        "usos": "10",
+        "potencia": "75",
+        "ratio": ""
+      },
+      {
+        "nombre": "Ojitos tiernos",
+        "usos": "20",
+        "potencia": "100",
+        "ratio": "100"
+      }]
+    },
+    {
+      "id": "3",
+      "nombre": "Dragonite",
+      "generacion": "Primera",
+      "movimientos": 
+      [{
+        "nombre": "Cascada",
+        "usos": "15",
+        "potencia": "80",
+        "ratio": "100",
+        "obtencion": 
+        {
+          "nombre": "MO"
+        }
+      },
+      {
+        "nombre": "Cola dragon",
+        "usos": "10",
+        "potencia": "60",
+        "ratio": "90",
+        "obtencion": 
+        {
+          "nombre": "Nivel"
+        }
+      }]
+    },
+    {
+      "id": "4",
+      "nombre": "Umbreon",
+      "generacion": "Segunda",
+      "movimientos": 
+      [{
+        "nombre": "Mal de ojo",
+        "usos": "5",
+        "potencia": "",
+        "ratio": ""
+      },
+      {
+        "nombre": "Finta",
+        "usos": "20",
+        "potencia": "60",
+        "ratio": "100"
+      }]
+    }
+  ]
