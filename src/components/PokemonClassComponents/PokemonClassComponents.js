@@ -2,16 +2,15 @@ import React, { Component } from 'react'
 import pokemonDb from "../../JSON.json"
 
 
-// let initialState = {
-//     Db: []
-// }
-
+let initialState = {
+    Db: []
+}
 
 class Pokemon extends Component {
     constructor(props){
         super(props)
         this.state = {
-             initialState: [],
+             ...initialState,
         }
     }
 
@@ -26,15 +25,20 @@ class Pokemon extends Component {
             }
         });
 
-        let initialState = [...this.state.initialState.concat(pokemonMap)];
+        
+        let initialState = [...this.state.Db.concat(pokemonMap)];
 
-        this.setState({initialState});
+        this.setState({Db: initialState});
+
+        
     }
 
     render() {
         return (
             <div>
-                    {this.state.initialState.map((item) => 
+                <h2>PokemonCC </h2>
+                    {this.state.Db.map((item) => 
+                    
                             <div key={item.id}>
                             <img src={item.imagen} alt={item.nombre} ></img>
                             <h4> {"Nombre: " + item.nombre}</h4>
@@ -43,6 +47,7 @@ class Pokemon extends Component {
                             <hr/>
                             </div>
                    )}
+
             </div>
         );
     }

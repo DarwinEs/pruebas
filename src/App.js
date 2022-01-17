@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Pokemon from './components/PokemonClassComponents/PokemonClassComponents'
+import PokemonHooks from './components/PokemonHooks/PokemonHooks';
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Pokemon/>
+        <hr/>
+        <PokemonHooks/>
       </header>
       
         
